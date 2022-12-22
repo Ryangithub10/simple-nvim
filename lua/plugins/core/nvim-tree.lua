@@ -3,5 +3,9 @@ if not status_ok then
     return
 end
 
-require('nvim-tree').setup()
+require('nvim-tree').setup({
+    view = {
+        adaptive_size = true,
+    },
+})
 
