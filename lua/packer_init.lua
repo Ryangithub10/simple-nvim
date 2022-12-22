@@ -8,6 +8,7 @@ return require('packer').startup(function(use)
 
     -- autopairing
     use 'windwp/nvim-autopairs'
+    require('nvim-autopairs').setup()
 
     -- file explorer
     use 'nvim-tree/nvim-tree.lua'
