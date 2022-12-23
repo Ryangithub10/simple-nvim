@@ -20,8 +20,5 @@ return require('packer').startup(function(use)
     use 'nvim-lualine/lualine.nvim'
 
     -- treesitter
-    use {
-        'nvim-treesitter/nvim-treesitter',
-        run = ':TSUpdate'
-    }
+    use 'nvim-treesitter/nvim-treesitter'
 end)
