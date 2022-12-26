@@ -28,4 +28,9 @@ return require('packer').startup(function(use)
         tag = '0.1.0',
         requires = { {'nvim-lua/plenary.nvim'} },
     }
+
+    use {
+        "L3MON4D3/LuaSnip", 
+        tag = "v<CurrentMajor>.*"
+    }
 end)
